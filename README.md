@@ -1,54 +1,6 @@
 "# markcostales-solves-leetcode" 
 
-## Your 4-Step Process for Each Problem
+Currently studying 
+JavaScript Data Structures and Algorithms: An Introduction to Understanding and Implementing Core Data Structure and Algorithm Fundamentals
 
-**1. Brute Force Solution**
-- Just make it work, don't worry about efficiency
-- This proves you understand the problem
-- Often O(n²) with nested loops
-
-**2. Optimize Time**
-- Look for patterns: Can I use a hashmap? Two pointers? Sliding window?
-- Draw out the problem, look for repeated work you can eliminate
-- Target O(n) or O(n log n)
-
-**3. Optimize Space**
-- Can I reuse the input array?
-- Do I really need that hashmap or can I use pointers?
-- Can I use variables instead of arrays?
-
-**4. Handle Edge Cases**
-- Empty input: `[]`, `""`, `None`
-- Single element: `[5]`, `"a"`
-- All same elements: `[1,1,1,1]`
-- Negative numbers (if relevant)
-- Very large numbers (overflow)
-- Sorted vs unsorted input
-- Duplicates
-
-## Example Template for Your Solutions
-
-```python
-def two_sum(nums, target):
-    # Edge cases
-    if not nums or len(nums) < 2:
-        return []
-    
-    # Solution (after iterations)
-    seen = {}
-    for i, num in enumerate(nums):
-        complement = target - num
-        if complement in seen:
-            return [seen[complement], i]
-        seen[num] = i
-    
-    return []  # No solution found
-```
-
-**Pro tip:** In interviews, verbalize this process! Say things like:
-- "Let me start with a brute force approach..."
-- "This works but it's O(n²), let me optimize..."
-- "We're using O(n) space, but if we sort first..."
-- "Let me think about edge cases..."
-
-This systematic approach shows strong problem-solving skills even if you don't get the optimal solution immediately.
+Sammie Bae
