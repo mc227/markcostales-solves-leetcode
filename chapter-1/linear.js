@@ -20,4 +20,25 @@ function sumArray(arr){
 }
 
 let numbers = [1,2,3,4,5]
-console.log(sumArray(numbers))
+// console.log(sumArray(numbers))
+
+
+// function mapArray(arr){
+//     return arr.map(num=>num**2)
+// }
+
+// console.log(mapArray(numbers))
+
+
+// function evenOnly(arr){
+//     return arr.filter(num=>num%2==0)
+// }
+// console.log(evenOnly(numbers))
+
+// Using recursion - O(n)
+function printNumbers(n) {
+    if (n === 0) return;
+    console.log(n);
+    printNumbers(n - 1);
+}
+console.log(printNumbers(5))
