@@ -1,2 +1,4 @@
-I decided to just focus on python for now.
-i saw this video saying that less is more.
+Just have to be consistent.
+the momentum will take you far.
+and consistent effort will compound.
+
