@@ -9,7 +9,9 @@ To deactivate when you're done:
 deactivate
 ```
 
+for windows
+```bash
+dsa\Scripts\activate
+```
 
-currently here
-1.3.2 Versatility and Libraries: A Treasure Trove of Tools
-Oct 23, 2025
+currently in chapter 1 exercises
